@@ -72,19 +72,28 @@ footer {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/hero.jpg");
+    url("/dvmmittal01-me_qtripstatic/assets/hero.jpg");
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
   /* 2. Position and center the image to scale nicely on all screens. */
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
+.hero-text {
+  text-align: center;
+  position: relative;
 
+  color: white;
+}
 .hero-subheading {
   font-size: 24px;
   font-weight: 100;
 }
 .hero-input {
-  width: 80%;
+  width: 60%;
   height: 50px;
   padding: 16px;
   border-radius: 8px;
@@ -93,6 +102,12 @@ footer {
 
 .nav-link {
   margin-right: 36px;
+}
+
+.card-text {
+  margin-top: 100%;
+  color: rgba(255, 255, 255, 0.555);
+  text-align: center;
 }
 
 /* ================================== */
@@ -119,7 +134,6 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
-
 }
 
 .adventure-card-image {
