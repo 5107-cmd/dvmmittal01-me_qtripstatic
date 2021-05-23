@@ -105,18 +105,29 @@ footer {
 }
 
 .card-text {
+  position: absolute;
   margin-top: 100%;
-  color: rgba(255, 255, 255, 0.555);
+  color: rgba(255, 255, 255, 0.603);
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
+
+.card:hover{
+  opacity: 0.7;
+  transition-delay: -1ms;
+  transform: scale(1.1);
+  
+}
 /* ================================== */
 /* Adventures grid page CSS */
 /* ================================== */
 
-.adventure-card {
+.adventure-card-height {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  max-height: 200px;
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */

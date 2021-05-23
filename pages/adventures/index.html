@@ -1,48 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip Adventures</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QTrip Adventures</title>
-  <link rel="stylesheet" href="../../css/styles.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">QTrip</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">QTrip</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav d-flex justify-content-end w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="/dvmmittal01-me_qtripstatic/index.html"
+              >Home
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/pages/adventures/">Explore</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav d-flex justify-content-end w-100">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home </a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/pages/adventures/">Explore</a>
-        </li>
+    <div class="container" style="max-width: 70%;">
+      <div class="content" style=" text-align: center;">
+        <!-- TODO: MODULE_ADVENTURES_GRID -->
+        <!-- 1. Create the grid of adventures by adding child elements as required. -->
+        <h1 >Explore all adventures</h1>
+        <h3>Here's a list of adventures you can explore in the city</h3>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\adventures\university.jpg"
+              class="card-img-top "
+              alt=""
 
-      </ul>
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);" >
+              <h5>University <span style="float: right">₹1200</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\adventures\church.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Canopy <span style="float: right">₹600</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\paris.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Cafe <span style="float: right">₹700</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\adventures\tower.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Tower <span style="float: right">₹1900</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\adventures\market.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Market <span style="float: right">₹900</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\adventures\mount.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Subway <span style="float: right">₹1400</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\adventures\elephant.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Resort <span style="float: right">₹3000</span></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="\dvmmittal01-me_qtripstatic\assets\singapore.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body py-2 px-3" style="background-color: rgb(235, 232, 232);">
+              <h5>Huts <span style="float: right">₹1600</span></h5>
+            </div>
+          </div>
+      </div>
     </div>
-  </nav>
 
-  <div class="container">
-    <div class="content">
-      <!-- TODO: MODULE_ADVENTURES_GRID -->
-      <!-- 1. Create the grid of adventures by adding child elements as required. -->
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">© QTrip 2020</div>
-  </footer>
-  <!-- TODO: MODULE_ADVENTURES_GRID -->
-  <!-- 1. <script> elements need to be added. -->
-</body>
-
+    <footer>
+      <div class="container">© QTrip 2020</div>
+    </footer>
+    <!-- TODO: MODULE_ADVENTURES_GRID -->
+    <!-- 1. <script> elements need to be added. -->
+  </body>
 </html>
