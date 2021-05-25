@@ -1,54 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip Adventure Detail</title>
+    <link rel="stylesheet" href="../../../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>QTrip Adventure Detail</title>
-   <link rel="stylesheet" href="../../../css/styles.css" />
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-</head>
-
-<body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="/">QTrip</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-         <ul class="navbar-nav d-flex justify-content-end w-100">
-            <li class="nav-item">
-               <a class="nav-link" href="/">Home </a>
-            </li>
-            <li class="nav-item active">
-               <a class="nav-link" href="/pages/adventures/">Explore</a>
-            </li>
-
-         </ul>
+        <ul class="navbar-nav d-flex justify-content-end w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="\dvmmittal01-me_qtripstatic\index.html">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="\dvmmittal01-me_qtripstatic\pages\adventures\index.html">Explore</a>
+          </li>
+        </ul>
       </div>
-   </nav>
-   <div class="container">
-      <div class="content">
-          <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
-          <!-- 1. Write the child elements as required. -->
-          <!-- 2. Remember to use .adventure-card and its related classes. -->
+    </nav>
+    <div class="container">
+      <div class="col-lg-10 mx-auto mt-4">
+        <div class="row">
+          <div
+            class="col-lg-8 content"
+            style="border: 1px solid lightgrey; margin: 0px"
+          >
+            <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
+            <!-- 1. Write the child elements as required. -->
+            <!-- 2. Remember to use .adventure-card and its related classes.-->
 
+            <div class="resort_images">
+              <div class="row">
+                <div class="col-lg-8">
+                  <img
+                    src="\dvmmittal01-me_qtripstatic\assets\adventures\resort\resort1.jpg"
+                    alt=""
+                    class="img-fluid float-right"
+                    style="max-height: 80%"
+                  />
+                </div>
+                <div class="col-lg-3" style="padding-left: 0">
+                  <img
+                    src="\dvmmittal01-me_qtripstatic\assets\adventures\resort\resort2.jpg"
+                    alt=""
+                    class="img-fluid mb-2"
+                  />
+
+                  <img
+                    src="\dvmmittal01-me_qtripstatic\assets\adventures\resort\resort3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="heading">
+              <h3>Sunshine Resort</h3>
+              <h4
+                style="padding-bottom: 0px; color: rgba(198, 199, 199, 0.945)"
+              >
+                Relax and unwind yourself
+              </h4>
+              <hr />
+            </div>
+            <div class="heading">
+              <p>
+                Donec commodo justo ante, at pulvinar ex pretium viverra. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos. In quam risus, condimentum ut leo sed,
+                mattis imperdiet quam. Sed odio elit, vestibulum convallis
+                congue a, pretium eget sapien. Suspendisse massa tellus,
+                molestie eget porttitor vitae, cursus eu tellus. Phasellus augue
+                augue, pellentesque non vestibulum posuere, maximus a enim. Cras
+                in imperdiet sapien
+              </p>
+              <ul>
+                <li>
+                  Duis at nisl facilisis, varius augue id, bibendum lectus.
+                </li>
+                <li>Vivamus ultrices tortor sed nisl vulputate condimentum.</li>
+                <li>
+                  Mauris in quam nec odio efficitur malesuada at at massa.
+                </li>
+                <li>
+                  Aliquam iaculis est ac enim rutrum, nec ornare lorem volutpat.
+                </li>
+              </ul>
+              <p>
+                Sed odio elit, vestibulum convallis congue a, pretium eget
+                sapien..
+              </p>
+              <ul>
+                <li>Vivamus ultrices tortor sed nisl vulputate condimentum.</li>
+                <li>
+                  In quam risus, condimentum ut leo sed, mattis imperdiet quam.
+                </li>
+                <li>
+                  Suspendisse massa tellus, molestie eget porttitor vitae,
+                  cursus eu tellus
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="right_side">
+              <h3>Sold Out!</h3>
+              <hr style="margin-bottom: 2px; margin-top: 2px" />
+              The adventure is currently sold out. But there's a lot more to
+              <a href="\dvmmittal01-me_qtripstatic\pages\adventures\index.html"
+                ><span style="color: rgb(251, 255, 0)">explore</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-   </div>
-   <footer>
+    </div>
+
+    <!-- <div class="container row">
+      
+         <div class="col-lg-9">image</div>
+         <div class="col-lg-3">Booked</div>
+        
+    </div> -->
+
+    <footer>
       <div class="container">© QTrip 2020</div>
-   </footer>
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"></script>
-</body>
-
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

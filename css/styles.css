@@ -118,7 +118,24 @@ footer {
   opacity: 0.7;
   transition-delay: -1ms;
   transform: scale(1.1);
-  
+
+}
+
+.resort-images{
+  height: 50%;
+  width: 50%;
+}
+
+.heading{
+  justify-content: center;
+  padding-left: 11%;
+  padding-top: 0%;
+}
+
+.right_side{
+  border: 1px solid lightgrey;
+  padding: 5px 10px;
+  width: 100%
 }
 /* ================================== */
 /* Adventures grid page CSS */
